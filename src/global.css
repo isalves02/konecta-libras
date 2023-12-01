@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:focus {
+	outline: transparent !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	background: transparent;
+	font-family: theme(fontFamily.body)
+}
+
+body {
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+  /* background: theme(colors.blue-800); */
+}
+
+html {
+  overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body,
+input,
+button, 
+textarea {
+	line-height: 1;
+	font-weight: 400;
+	font-size: theme(fontSize.xs);
+	font-family: theme(fontFamily.body)
+} 
+
+ul, ol {
+	list-style-type: none;
+}
+
+input,
+button:not(:disabled) {
+	cursor: pointer;
+}
+
+a, p, span,
+h1, h2, h3,
+h4, h5, h6 {
+	color: theme(colors.white);
+}
+
+textarea {
+	resize: none;
+}
+
+.linear-gradient-default::after {
+	inset: 0;
+	z-index: 1;
+	content: '';
+	opacity: 0.6;
+	position: absolute;
+	background:	linear-gradient(180deg, rgba(0, 0, 0, 0.16) 67.21%, rgba(0, 0, 0, 0.47) 122.42%, #000 167.21%);
+}
+
+.detail-radial-gradient {
+	background: radial-gradient(50% 50% at 50% 50%, #092d7d 0%, rgba(70, 144, 255, 0.00) 86.46%);
+}
+
+.border-b-default {
+	border-bottom: 1px rgba(255,255,255, .2) solid;
+}
+
+::-webkit-scrollbar {
+	width: .6rem;
+	height: .4rem;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+	background-color: theme(colors.blue-300);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: theme(colors.white);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	height: .1rem;
+	width: .8rem;
+	background-color: theme(colors.blue-600);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	width: 3rem;
+	background-color: theme(colors.blue-600);
+}
