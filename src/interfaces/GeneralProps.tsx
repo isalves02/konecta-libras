@@ -58,7 +58,6 @@ export interface InputProps {
 
 export interface OptionsProps {
   value: string, 
-  default?: boolean,
 }
 
 export interface SelectProps {

@@ -6,7 +6,7 @@ import { Textarea } from "./components/Textarea";
 
 export function FormTrabalheConosco() {
   const experience = [
-    {value: 'Há quanto tempo você é fluente em LIBRAS?', default: true},
+    {value: 'Há quanto tempo você é fluente em LIBRAS?'},
     {value: 'Menos de 1 ano'},
     {value: 'Entre 1 e 2 anos'},
     {value: 'Mais de 3 anos'},

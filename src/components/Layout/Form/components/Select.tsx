@@ -18,16 +18,18 @@ export function Select ({
         text-sm rounded-md bg-gray-100 text-blue-800 
         placeholder:text-gray-700 mb-3 shadow">
         
-        {options.map(option => {
-          if (option.default) {
+        {options.map((option, index) => {
+          if (index === 0) {
             return (
-              <option key={option.value} defaultValue={option.value} disabled>{option.value}</option>
+              <option key={option.value} defaultValue={option.value} selected={true} disabled>{option.value}</option>
+            )
+          } else {
+            return (
+              <option key={option.value} value={option.value}>{option.value}</option>
             )
           }
 
-          return (
-            <option key={option.value} value={option.value}>{option.value}</option>
-          )
+         
         })}
       </select>
     </>
