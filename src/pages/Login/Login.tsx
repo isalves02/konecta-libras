@@ -6,8 +6,8 @@ import { Titulo } from '../../components/Layout/Texto/Titulo'
 import { Subtitulo } from '../../components/Layout/Texto/Subtitulo'
 import { Texto } from '../../components/Layout/Texto/Texto'
 import { Button } from '../../components/Layout/Button/Button'
-import { Input } from '../../components/Layout/Form/Input'
-import { Label } from '../../components/Layout/Form/Label'
+import { Input } from '../../components/Layout/Form/components/Input'
+import { Label } from '../../components/Layout/Form/components/Label'
 
 
 export function Login () {

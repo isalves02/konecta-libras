@@ -7,7 +7,7 @@ import { Planos } from "./components/Planos/Planos"
 import { TrabalheConosco } from "./components/TrabalheConosco/TrabalheConosco"
 import { Footer } from "../../components/Footer/Footer"
 
-export function Home() {  
+export function Home() {   
   return (
     <>       
       <h1 className="sr-only">Konecta LIBRAS</h1>

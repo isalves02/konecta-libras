@@ -55,3 +55,23 @@ export interface InputProps {
   autoComplete?: boolean,
   inputHasMask?: boolean,
 }
+
+export interface OptionsProps {
+  value: string, 
+  default?: boolean,
+}
+
+export interface SelectProps {
+  id: string,
+  name: string,
+  
+  required?: boolean,
+  options: OptionsProps[],
+}
+
+export interface TextareaProps {
+  id: string,
+  name: string,
+  placeholder: string,
+  required?: boolean,
+}

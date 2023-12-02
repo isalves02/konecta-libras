@@ -1,8 +1,8 @@
 import { useEffect, useContext, useState } from "react"
 
 import { Texto } from "../Texto/Texto"
-import { Label } from "./Label"
-import { Input } from "./Input"
+import { Label } from "./components/Label"
+import { Input } from "./components/Input"
 import { AccountTypeContext } from "../../../contexts/GeneralContextProvider"
 import uuid from "react-uuid"
 

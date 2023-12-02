@@ -45,8 +45,7 @@ export function GeneralContextProvider( { children }:GeneralChildrenContext) {
       }}>
 
       {children}
-    </AccountTypeContext.Provider>
-    
+    </AccountTypeContext.Provider>  
     </>
   )
 }

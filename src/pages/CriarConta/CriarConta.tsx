@@ -8,8 +8,8 @@ import { Texto } from '../../components/Layout/Texto/Texto'
 import { AccountTypeContext } from '../../contexts/GeneralContextProvider'
 import { Header } from '../../components/Header/Header'
 import { Button } from '../../components/Layout/Button/Button'
-import { Label } from '../../components/Layout/Form/Label'
-import { Input } from '../../components/Layout/Form/Input'
+import { Label } from '../../components/Layout/Form/components/Label'
+import { Input } from '../../components/Layout/Form/components/Input'
 
 export function CriarConta () {
   const { registerType } = useContext(AccountTypeContext)

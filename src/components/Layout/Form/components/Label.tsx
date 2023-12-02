@@ -1,4 +1,4 @@
-import { LabelProps } from "../../../interfaces/GeneralProps";
+import { LabelProps } from "../../../../interfaces/GeneralProps";
 
 export function Label({ name, text, sreader, classes}: LabelProps) {
   return (

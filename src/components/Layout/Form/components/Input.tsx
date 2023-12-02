@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { InputProps } from "../../../interfaces/GeneralProps";
+import { InputProps } from "../../../../interfaces/GeneralProps";
 import { InputMask } from "@react-input/mask";
-import { AccountTypeContext } from "../../../contexts/GeneralContextProvider";
+import { AccountTypeContext } from "../../../../contexts/GeneralContextProvider";
 
 export function Input ({ 
   id, 
