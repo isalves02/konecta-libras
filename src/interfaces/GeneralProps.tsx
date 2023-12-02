@@ -1,5 +1,5 @@
 export interface HeaderProps {
-  page?: 'home' | 'teacher' | 'account' | 'platform',
+  page: 'home' | 'teacher' | 'account' | 'platform',
 } 
 
 export interface TextProps {
