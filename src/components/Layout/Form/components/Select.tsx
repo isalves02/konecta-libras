@@ -21,15 +21,13 @@ export function Select ({
         {options.map((option, index) => {
           if (index === 0) {
             return (
-              <option key={option.value} defaultValue={option.value} selected={true} disabled>{option.value}</option>
-            )
-          } else {
-            return (
-              <option key={option.value} value={option.value}>{option.value}</option>
+              <option key={option.value} defaultValue={option.value} disabled selected>{option.value}</option>
             )
           }
 
-         
+          return (
+            <option key={option.value} value={option.value}>{option.value}</option>
+          )
         })}
       </select>
     </>

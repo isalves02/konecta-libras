@@ -28,7 +28,7 @@ export function Plataforma () {
             />
           </div>
 
-          <iframe 
+          {/* <iframe 
             width="560" 
             height="315" 
             className="
@@ -40,7 +40,7 @@ export function Plataforma () {
             title="Apresentação Konecta LIBRAS" 
             src="https://www.youtube.com/embed/kw9-h1XIBQk?si=HvkCk566S5CB-BDW" 
             allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share" 
-          />
+          /> */}
         </div>
 
         <div 
