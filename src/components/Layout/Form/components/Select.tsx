@@ -21,7 +21,7 @@ export function Select ({
         {options.map((option, index) => {
           if (index === 0) {
             return (
-              <option key={option.value} defaultValue={option.value} disabled selected>{option.value}</option>
+              <option key={option.value} defaultValue={option.value} disabled>{option.value}</option>
             )
           }
 

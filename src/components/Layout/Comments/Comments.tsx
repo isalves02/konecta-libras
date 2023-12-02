@@ -4,7 +4,6 @@ import { Texto } from "../Texto/Texto"
 
 export function Comments() {
   const Comments = CommentsData
-  console.log(Comments)
 
   return (
     <>

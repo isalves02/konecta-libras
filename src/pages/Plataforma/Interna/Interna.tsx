@@ -32,7 +32,7 @@ export function Interna () {
             />
             <span className="text-gray-300 ">Como perguntar o nome?</span>
           </div>
-
+ 
           <Video 
             title="Como perguntar o nome?"
             url="https://www.youtube.com/embed/8uFWqqfLRSw?si=FVX1bbPCoqaEQ4R8" 

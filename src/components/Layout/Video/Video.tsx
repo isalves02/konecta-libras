@@ -38,16 +38,20 @@ export function Video({ url, title }:VideoProps) {
   }, [url])
 
 
+  const handleHidePlaceholder = () => {
+    document.querySelector('.placeholder')?.classList.add('hidden');
+  }
 
   const opts: YouTubeProps['opts'] = {
     width: '640',
     height: '702',
     playerVars: {
-      modestbranding: 1,
       rel: 0,
       showinfo: 1,
-      iv_load_policy: 3,
       controls: 0,
+      modestbranding: 1,
+      iv_load_policy: 3,
+      origin: 'http://localhost:5173/',
     }
   };
 
@@ -55,10 +59,13 @@ export function Video({ url, title }:VideoProps) {
   return (
     <> 
       <div className="container-iframe w-full">
+        <div className="placeholder w-full h-screen bg-blue-950 rounded-md" />
+
         <YouTube 
           videoId={videoID}
           id={uuid()+title}
           opts={opts}
+          onReady={() => handleHidePlaceholder()}
           iframeClassName="w-full rounded-md"
         />
       </div>
