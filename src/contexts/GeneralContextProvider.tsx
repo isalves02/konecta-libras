@@ -16,13 +16,13 @@ export function GeneralContextProvider( { children }:GeneralChildrenContext) {
   }
 
   function handleChangeEvent (event: React.ChangeEvent<HTMLInputElement>) {
-  const value = event.currentTarget.value
+    const value = event.currentTarget.value
 
-  if (value === 'aluno' || value === 'instrutor')
-    setRegisterType(value)
+    if (value === 'aluno' || value === 'instrutor')
+      setRegisterType(value)
 
-  if (value === 'cartao' || value === 'pix')
-    setPaymentMethod(value)
+    if (value === 'cartao' || value === 'pix')
+      setPaymentMethod(value)
   }
 
   function handleMenuVisibility (visibility: string) {

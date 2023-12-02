@@ -27,7 +27,7 @@ export interface ButtonProps {
   classes?: string,
   isDisabled?: boolean,
   clickEvent?: () => void,
-  type: 'button' | 'reset' | 'submit',
+  type: 'button' | 'submit',
 }
 
 export interface LabelProps {

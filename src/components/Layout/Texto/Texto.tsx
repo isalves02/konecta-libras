@@ -37,7 +37,7 @@ export function Texto({ type, text, classes }:TextProps) {
 
       { type === "topic" &&
         <p className={`text-base uppercase 
-          font-medium tracking-wider 
+          font-medium tracking-wider pb-3
           ${classes}
           `}>
               

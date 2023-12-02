@@ -12,9 +12,9 @@ export function Input ({
   maxLength, 
   placeholder, 
   autoComplete, 
-  hasEvent, isDisabled,
-  inputHasMask, mask, 
-  value }:InputProps) {
+  isChecked, isDisabled,
+  hasEvent, value,
+  inputHasMask, mask }:InputProps) {
 
   const { handleChangeEvent } = useContext(AccountTypeContext)
 
@@ -27,6 +27,7 @@ export function Input ({
         type={type} 
         value={value}
         required={required}
+        checked={isChecked}
         disabled={isDisabled}
         maxLength={maxLength}
         placeholder={placeholder}

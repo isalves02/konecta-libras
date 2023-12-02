@@ -38,7 +38,7 @@ export function Plataforma() {
                 <BoxFiltros 
                   name={filter} 
                   key={filter+uuid()}
-                  classes="bg-blue-900 border border-solid border-gray-600 w-3/12" 
+                  classes="bg-blue-900 w-3/12" 
                 />
               )
             })}

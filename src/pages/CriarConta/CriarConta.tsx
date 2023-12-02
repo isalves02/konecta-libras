@@ -16,7 +16,7 @@ export function CriarConta () {
 
   return (
     <>
-      <Header page='account' />
+      <Header page="account" />
 
       <div className="criar-conta relative flex justify-center items-center h-screen min-h-[5rem] overflow-hidden bg-blue-800">
         <div 
