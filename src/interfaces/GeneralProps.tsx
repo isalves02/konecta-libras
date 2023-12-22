@@ -74,3 +74,13 @@ export interface TextareaProps {
   placeholder: string,
   required?: boolean,
 }
+
+export interface CardProps {
+  text: string;
+}
+
+export interface TagProps {
+  text: string;
+  type: string;
+  // type: 'Pendente' | 'Publicado' | 'Não aprovado';
+}

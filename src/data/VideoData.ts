@@ -105,3 +105,45 @@ export const VideoData = {
 
   ],
 }
+
+export const VideoRegisteredByTeacher = [
+  {
+    id: 1,
+    category: 'Artes',
+    title: 'Saudações em LIBRAS',
+    thumbnail: 'src/assets/images/thumb-interna-1.jpg',
+    status: 'Pendente',
+  }, 
+
+  {
+    id: 2,
+    category: 'Saudações',
+    title: 'Como se apresentar',
+    thumbnail: 'src/assets/images/thumb-interna-2.jpg',
+    status: 'Publicado',
+  }, 
+
+  {
+    id: 3,
+    category: 'Cinema',
+    title: 'Expressões do cinema',
+    thumbnail: 'src/assets/images/thumb-interna-3.jpg',
+    status: 'Publicado',
+  }, 
+
+  {
+    id: 4,
+    category: 'História',
+    title: 'II° Guerra Mundial',
+    thumbnail: 'src/assets/images/thumb-interna-1.jpg',
+    status: 'Não aprovado',
+  }, 
+
+  {
+    id: 5,
+    category: 'Aniversário',
+    title: 'Parabéns em LIBRAS',
+    thumbnail: 'src/assets/images/thumb-interna-3.jpg',
+    status: 'Publicado',
+  }, 
+]

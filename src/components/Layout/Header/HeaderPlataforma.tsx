@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom"
 import { SignOut, MagnifyingGlass } from 'phosphor-react'
 
 import filter from '../../../assets/icons/filter-menu.svg'
-import konectaLibras from '../../../assets/icons/konecta-libras.svg'
 import { AccountTypeContext } from '../../../contexts/GeneralContextProvider'
+import { Logomarca } from '../Logomarca/Logomarca'
 
 
 export function HeaderPlataforma() {
@@ -33,7 +33,7 @@ export function HeaderPlataforma() {
           </li>
         </ul>
 
-        <img src={konectaLibras} alt="Konecta LIBRAS" width="150" />
+        <Logomarca />
         
         <ul className="flex items-center gap-6">
           <li className="text-sm text-white font-light">Olá, Aline!</li>
