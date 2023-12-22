@@ -1,15 +1,15 @@
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { Title } from '../../components/Layout/Text/Title'
-import { SubTitle } from '../../components/Layout/Text/Subtitle'
 import { FormPagamento } from '../../components/Layout/Form/FormPagamento'
-import { Text } from '../../components/Layout/Text/Text'
 import { AccountTypeContext } from '../../contexts/GeneralContextProvider'
 import { Header } from '../../components/Header/Header'
 import { Button } from '../../components/Layout/Button/Button'
 import { Label } from '../../components/Layout/Form/components/Label'
 import { Input } from '../../components/Layout/Form/components/Input'
+import { Title } from '../../components/Layout/Text/Title'
+import { Subtitle } from '../../components/Layout/Text/Subtitle'
+import { Text } from '../../components/Layout/Text/Text'
 
 export function CriarConta () {
   const { registerType } = useContext(AccountTypeContext)
@@ -31,7 +31,7 @@ export function CriarConta () {
             text="Página para criar sua conta"
           />
 
-          <SubTitle 
+          <Subtitle 
             classes="text-center text-gray-800 pb-6"  
             text="Criar Conta" 
           />

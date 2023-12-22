@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 import { Header } from '../../components/Header/Header'
 import { Title } from '../../components/Layout/Text/Title'
-import { SubTitle } from '../../components/Layout/Text/Subtitle'
+import { Subtitle } from '../../components/Layout/Text/Subtitle'
 import { Text } from '../../components/Layout/Text/Text'
 import { Button } from '../../components/Layout/Button/Button'
 import { Input } from '../../components/Layout/Form/components/Input'
@@ -34,7 +34,7 @@ export function Login () {
             text="Página de Login"
           />
 
-          <SubTitle 
+          <Subtitle 
             classes="text-center text-gray-800 pb-2"  
             text="Efetuar Login" 
           />

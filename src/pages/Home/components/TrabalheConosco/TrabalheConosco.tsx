@@ -1,6 +1,6 @@
-import { Title } from "../../../../components/Layout/Text/Title"
 import { Text } from "../../../../components/Layout/Text/Text"
 import { Button } from "../../../../components/Layout/Button/Button"
+import { Title } from "../../../../components/Layout/Text/Title"
 import { FormTrabalheConosco } from "../../../../components/Layout/Form/FormTrabalheConosco"
 
 export function TrabalheConosco () {

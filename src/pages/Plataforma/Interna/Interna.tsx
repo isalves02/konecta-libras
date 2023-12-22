@@ -1,11 +1,11 @@
-import { NavLink } from "react-router-dom";
-import { Header } from "../../../components/Header/Header";
-import { SubTitle } from "../../../components/Layout/Text/Subtitle";
-import { Video } from "../../../components/Layout/Video/Video";
-import { CaretRight } from "phosphor-react";
-import { Text } from "../../../components/Layout/Text/Text";
-import { Comments } from "../../../components/Layout/Lists/Comments/Comments";
-import { PageBack } from "../../../components/Layout/Button/PageBack";
+import { NavLink } from "react-router-dom"
+import { Header } from "../../../components/Header/Header"
+import { Subtitle } from "../../../components/Layout/Text/Subtitle"
+import { Video } from "../../../components/Layout/Video/Video"
+import { CaretRight } from "phosphor-react"
+import { Text } from "../../../components/Layout/Text/Text"
+import { Comments } from "../../../components/Layout/Lists/Comments/Comments"
+import { PageBack } from "../../../components/Layout/Button/PageBack"
 
 
 export function Interna () {
@@ -35,7 +35,7 @@ export function Interna () {
 
           <div className="info">
             <div className="flex justify-between items-center">
-              <SubTitle 
+              <Subtitle 
                 text="Como perguntar o nome?"
                 classes="mt-16 pb-8"
               />

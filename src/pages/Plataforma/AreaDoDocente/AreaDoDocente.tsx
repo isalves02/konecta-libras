@@ -2,8 +2,7 @@ import { NavLink } from "react-router-dom";
 import { Header } from "../../../components/Header/Header";
 import { Card } from "../../../components/Layout/Card/Card";
 import { Text } from "../../../components/Layout/Text/Text";
-
-import { SubTitle } from "../../../components/Layout/Text/Subtitle";
+import { Subtitle } from "../../../components/Layout/Text/Subtitle";
 import { RegisteredContent } from "../../../components/Layout/Lists/RegisteredContent/RegisteredContent";
 
 export function AreaDoDocente () {
@@ -13,7 +12,7 @@ export function AreaDoDocente () {
 
       <section className="plataforma pt-28 bg-blue-900 min-h-screen">
         <div className="container">
-          <SubTitle text="Painel do docente" classes="mb-3" />
+          <Subtitle text="Painel do docente" classes="mb-3" />
 
           <NavLink to="/area-do-docente/cadastro" title="Área para cadastrar conteúdo">
             <Card text="Cadastrar novo conteúdo" hasHover={true} />

@@ -1,6 +1,6 @@
 import { TextProps } from "../../../interfaces/GeneralProps"
 
-export function SubTitle({ text, classes }:TextProps) {
+export function Subtitle({ text, classes }:TextProps) {
   return (
     <>
       <h3 
