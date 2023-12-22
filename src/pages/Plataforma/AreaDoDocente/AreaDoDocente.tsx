@@ -19,9 +19,9 @@ export function AreaDoDocente () {
           </NavLink>
 
           <div className="flex gap-2">
-            <Card text="Visualizações última semana: +24 mil" classes="mt-4 bg-blue-500/20" />
-            <Card text="Alcance mensal: +50 mil" classes="mt-4 bg-blue-500/20" />
-            <Card text="Novo acesso ao perfil: +2 mil" classes="mt-4 bg-blue-500/20 text-yellow-400" />
+            <Card text="Visualizações última semana: +24 mil" classes="mt-4 bg-gray-500/50" />
+            <Card text="Alcance mensal: +50 mil" classes="mt-4 bg-gray-500/50" />
+            <Card text="Novo acesso ao perfil: +2 mil" classes="mt-4 bg-gray-500/50 text-yellow-400" />
           </div>
 
           <div className="mt-4 py-10">
