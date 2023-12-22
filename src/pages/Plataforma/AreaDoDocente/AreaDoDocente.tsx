@@ -20,12 +20,13 @@ export function AreaDoDocente () {
             <Card text="Cadastrar novo conteúdo" />
           </NavLink>
 
-          <div className="mt-8 py-10 ">
+          <div className="mt-8 py-10">
             <Texto type="h4" text="Lista de conteúdos cadastrados" classes="uppercase tracking-wide" />
-            <ul className="mt-8 rounded-md bg-blue-600/30">
+
+            <ul className="mt-4 rounded-md bg-blue-600/30">
               {VideosList.map(video => {
                 return (
-                  <li key={video.id} className="flex pt-3 pb-8 px-8 gap-3 mb-4 border-b-default justify-between w-full">
+                  <li key={video.id} className="flex pt-6 pb-8 px-8 gap-3 border-b-default justify-between w-full">
                     <div>
                       <Tag text={video.status} type={video.status} />
                       <div className="flex items-center gap-2">
