@@ -13,7 +13,11 @@ export function Tag({text, type}:TagProps) {
 
   return (
     <>
-      <span className={`px-4 py-2 rounded-md inline-block mb-3 ${bgColor}`}>
+      <span className={`
+        px-4 py-2 rounded-md 
+        inline-block mb-3 ${bgColor}`
+        }>
+          
         {text}
       </span>
     </>
