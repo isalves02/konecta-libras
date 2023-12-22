@@ -12,7 +12,7 @@ export function AreaDoDocente () {
 
       <section className="plataforma pt-28 bg-blue-900 min-h-screen">
         <div className="container">
-          <Subtitle text="Painel do docente" classes="mb-3" />
+          <Subtitle text="Painel do docente" classes="mb-4" />
 
           <NavLink to="/area-do-docente/cadastro" title="Área para cadastrar conteúdo">
             <Card text="Cadastrar novo conteúdo" hasHover={true} />
@@ -20,7 +20,6 @@ export function AreaDoDocente () {
 
           <div className="mt-8 py-10">
             <Text type="h4" text="Lista de conteúdos cadastrados" classes="uppercase tracking-wide" />
-
             <RegisteredContent />
           </div>
         </div>
