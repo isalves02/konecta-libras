@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { NavLink } from "react-router-dom"
-import { Titulo } from "../../../../components/Layout/Texto/Titulo"
+import { Title } from "../../../../components/Layout/Text/Title"
 import { AccountTypeContext } from '../../../../contexts/GeneralContextProvider'
 
 export function Planos () {
@@ -10,7 +10,7 @@ export function Planos () {
 		<>
 			<section className="planos bg-blue-800" id="planos">
 				<div className="container py-52">
-          <Titulo 
+          <Title 
             classes="pb-16 max-w-3xl" 
             text="Assine o plano e tenha acesso aos nossos conteúdos"
           />

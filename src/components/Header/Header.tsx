@@ -3,7 +3,7 @@ import { HeaderArea } from '../Layout/Header/HeaderArea'
 import { HeaderHome } from '../Layout/Header/HeaderHome'
 import { HeaderMin } from '../Layout/Header/HeaderMin'
 import { HeaderPlataforma } from '../Layout/Header/HeaderPlataforma'
-import { MenuFiltro } from '../Layout/MenuFiltro/MenuFiltro'
+import { FilterMenu } from '../Layout/Menu/Filter/Filter'
 
 
 
@@ -38,7 +38,7 @@ export function Header ({ page }:HeaderProps) {
       </header>
       
       { page === "platform" &&
-        <MenuFiltro />
+        <FilterMenu />
       }
     </>
   )

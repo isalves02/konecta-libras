@@ -1,5 +1,5 @@
-import { Titulo } from "../../../../components/Layout/Texto/Titulo"
-import { Texto } from "../../../../components/Layout/Texto/Texto"
+import { Title } from "../../../../components/Layout/Text/Title"
+import { Text } from "../../../../components/Layout/Text/Text"
 import { Button } from "../../../../components/Layout/Button/Button"
 import { FormTrabalheConosco } from "../../../../components/Layout/Form/FormTrabalheConosco"
 
@@ -9,18 +9,18 @@ export function TrabalheConosco () {
 			<section className="trabalhe-conosco relative bg-blue-850" id="trabalhe-conosco">
 				<div className="container py-52 relative flex items-center justify-between z-10">
 					<div className="max-w-3xl">
-						<Texto
+						<Text
 							type="topic"
               classes="pb-2" 
               text="Trabalhe Conosco"
             />
 
-            <Titulo 
+            <Title 
               classes="pb-8" 
               text="Faça parte do nosso time!"
             />
 
-            <Texto  
+            <Text  
               classes="pb-12"
 							type="paragraph-max"
               text="Você é fluente em Língua Brasileira de Sinais e 

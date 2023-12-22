@@ -1,6 +1,6 @@
 // import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide'
 
-import { Titulo } from "../../../../components/Layout/Texto/Titulo"
+import { Title } from "../../../../components/Layout/Text/Title"
 
 export function Vantagens () {
 	return (
@@ -42,7 +42,7 @@ export function Vantagens () {
 							
 						</Splide> */}
 
-            <Titulo text="Conteúdos de até 1 minuto" />
+            <Title text="Conteúdos de até 1 minuto" />
 				</div>
 			</section>
 		</>

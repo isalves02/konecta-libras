@@ -1,6 +1,6 @@
 import { Play } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
-import { Texto } from '../Texto/Texto'
+import { Text } from '../Text/Text'
 import { ThumbnailProps } from '../../../interfaces/GeneralProps'
 
 
@@ -26,7 +26,7 @@ export function Thumbnail({ imageUrl, classes, title, category }: ThumbnailProps
 
           { title && 
             <div className="p-4 absolute text-base tracking-wider bottom-0 inset-x-0 bg-black/60">
-              <Texto text={title} />
+              <Text text={title} />
             </div>
           }
 

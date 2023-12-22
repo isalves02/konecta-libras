@@ -1,10 +1,10 @@
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { Titulo } from '../../components/Layout/Texto/Titulo'
-import { Subtitulo } from '../../components/Layout/Texto/Subtitulo'
+import { Title } from '../../components/Layout/Text/Title'
+import { SubTitle } from '../../components/Layout/Text/Subtitle'
 import { FormPagamento } from '../../components/Layout/Form/FormPagamento'
-import { Texto } from '../../components/Layout/Texto/Texto'
+import { Text } from '../../components/Layout/Text/Text'
 import { AccountTypeContext } from '../../contexts/GeneralContextProvider'
 import { Header } from '../../components/Header/Header'
 import { Button } from '../../components/Layout/Button/Button'
@@ -26,12 +26,12 @@ export function CriarConta () {
             overflow-y-scroll
           ">
           
-          <Titulo 
+          <Title 
             classes="sr-only" 
             text="Página para criar sua conta"
           />
 
-          <Subtitulo 
+          <SubTitle 
             classes="text-center text-gray-800 pb-6"  
             text="Criar Conta" 
           />
@@ -202,7 +202,7 @@ export function CriarConta () {
               mask="__/__/____" 
             />
 
-            <Texto 
+            <Text 
               type="detail"
               text="Informe-nos seu endereço" 
               classes="font-normal text-gray-700 pt-1 pb-2" 
@@ -322,7 +322,7 @@ export function CriarConta () {
           </form>
 
           <NavLink to="/login" title="Login">
-            <Texto 
+            <Text 
               type="detail"
               text="Já possui conta? Fazer Login."
               classes="pt-4 font-medium text-gray-800 underline" 

@@ -1,8 +1,8 @@
 import { Banner } from "../../components/Layout/Banner/Banner"
 
-import { Texto } from "../../components/Layout/Texto/Texto"
+import { Text } from "../../components/Layout/Text/Text"
 import { Thumbnail } from "../../components/Layout/Thumbnail/Thumbnail"
-import { BoxFiltros } from "../../components/Layout/BoxFiltros/BoxFiltros"
+import { FilterBox } from "../../components/Layout/FilterBox/FilterBox"
 
 import bannerImage from '../../assets/images/banner-plataforma.jpg'
 import { Footer } from "../../components/Footer/Footer"
@@ -30,12 +30,12 @@ export function Plataforma() {
         </div>
 
         <div className="p-4">
-          <Texto type="topic" text="Últimos filtros acessados" classes="mt-16" />
+          <Text type="topic" text="Últimos filtros acessados" classes="mt-16" />
   
           <div className="flex gap-8">
             {LatestFilters.map(filter => {
               return (
-                <BoxFiltros 
+                <FilterBox 
                   name={filter} 
                   key={filter+uuid()}
                   classes="bg-blue-900 w-3/12" 
@@ -46,7 +46,7 @@ export function Plataforma() {
         </div>
 
         <div className="pb-4">
-          <Texto type="topic" text="O que selecionamos baseado nas suas escolhas" classes="px-4 mt-10" />
+          <Text type="topic" text="O que selecionamos baseado nas suas escolhas" classes="px-4 mt-10" />
 
           <div className="flex gap-8 overflow-x-auto ml-4">
             {VideosList.algorithm.map(videos => {
@@ -63,7 +63,7 @@ export function Plataforma() {
         </div>
       
         <div className="pb-4">
-          <Texto type="topic" text="Fique por dentro dos novos conteúdos" classes="px-4 mt-10" />
+          <Text type="topic" text="Fique por dentro dos novos conteúdos" classes="px-4 mt-10" />
   
           <div className="flex gap-8 overflow-x-auto ml-4">
             {VideosList.news.map(videos => {
@@ -80,7 +80,7 @@ export function Plataforma() {
         </div>
       
         <div className="pb-32">
-          <Texto type="topic" text="Para você assistir de novo" classes="px-4 mt-10" />
+          <Text type="topic" text="Para você assistir de novo" classes="px-4 mt-10" />
   
           <div className="flex gap-8 overflow-x-auto ml-4">
             {VideosList.watchAgain.map(videos => {

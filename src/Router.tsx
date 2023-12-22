@@ -5,6 +5,7 @@ import { CriarConta } from './pages/CriarConta/CriarConta'
 import { Plataforma } from './pages/Plataforma/Plataforma'
 import { Interna } from './pages/Plataforma/Interna/Interna'
 import { AreaDoDocente } from './pages/Plataforma/AreaDoDocente/AreaDoDocente'
+import { Cadastro } from './pages/Plataforma/AreaDoDocente/Cadastro'
 
 export function Router() {
   return (
@@ -16,6 +17,7 @@ export function Router() {
           <Route path="/plataforma" element={<Plataforma />} />
           <Route path="/plataforma/interna" element={<Interna />} />
           <Route path="/area-do-docente" element={<AreaDoDocente />} />
+          <Route path="/area-do-docente/cadastro" element={<Cadastro />} />
       </Routes>
     </>
   )

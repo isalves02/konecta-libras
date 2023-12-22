@@ -1,5 +1,5 @@
-import { Titulo } from "../../../../components/Layout/Texto/Titulo"
-import { Texto } from "../../../../components/Layout/Texto/Texto"
+import { Title } from "../../../../components/Layout/Text/Title"
+import { Text } from "../../../../components/Layout/Text/Text"
 
 export function Plataforma () {
   return (
@@ -7,19 +7,19 @@ export function Plataforma () {
       <section className="plataforma relative bg-blue-800" id="plataforma">
         <div className="container py-52 relative z-10">
           <div className="max-w-2xl lg:max-w-3xl">
-            <Texto
+            <Text
               type="topic" 
               classes="pb-2" 
               text="Nossa Plataforma"
             />
 
-            <Titulo 
+            <Title 
               classes="pb-8" 
               text="O seu streaming de aprendizado de LIBRAS"
             />
 
           
-            <Texto  
+            <Text  
               classes="pb-12"
 							type="paragraph-max"
               text="Você é fluente em Língua Brasileira de Sinais e 

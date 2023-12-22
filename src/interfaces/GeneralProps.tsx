@@ -77,6 +77,7 @@ export interface TextareaProps {
 
 export interface CardProps {
   text: string;
+  hasHover?: boolean;
 }
 
 export interface TagProps {

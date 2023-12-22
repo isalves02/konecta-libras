@@ -1,6 +1,6 @@
 import { useEffect, useContext, useState } from "react"
 
-import { Texto } from "../Texto/Texto"
+import { Text } from "../Text/Text"
 import { Label } from "./components/Label"
 import { Input } from "./components/Input"
 import { AccountTypeContext } from "../../../contexts/GeneralContextProvider"
@@ -19,7 +19,7 @@ export function FormPagamento() {
   return (
     <>
       <div className="payment mt-4 bg-gray-100 rounded-md pt-2 pb-8 px-8 shadow mb-2">
-        <Texto
+        <Text
           type="topic" 
           text="Resumo" 
           classes="py-3 text-gray-700" 
@@ -27,23 +27,23 @@ export function FormPagamento() {
         
         <div className="p-4 flex justify-between rounded-md shadow
           bg-gradient-to-r from-blue-600 to-blue-750">
-          <Texto 
+          <Text 
             type="topic"
             text="Plano padrão" 
           />
-          <Texto 
+          <Text 
             type="detail"
             text="R$12,90/Mês" 
           />
         </div>
         
-        <Texto 
+        <Text 
           type="topic"
           text="Pagamento" 
           classes="mt-4 text-gray-700" 
         />
 
-        <Texto 
+        <Text 
           type="paragraph"
           text="Escolha uma forma de pagamento" 
           classes="pt-1 text-gray-700" 

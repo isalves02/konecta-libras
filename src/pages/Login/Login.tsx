@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
 import { Header } from '../../components/Header/Header'
-import { Titulo } from '../../components/Layout/Texto/Titulo'
-import { Subtitulo } from '../../components/Layout/Texto/Subtitulo'
-import { Texto } from '../../components/Layout/Texto/Texto'
+import { Title } from '../../components/Layout/Text/Title'
+import { SubTitle } from '../../components/Layout/Text/Subtitle'
+import { Text } from '../../components/Layout/Text/Text'
 import { Button } from '../../components/Layout/Button/Button'
 import { Input } from '../../components/Layout/Form/components/Input'
 import { Label } from '../../components/Layout/Form/components/Label'
@@ -29,19 +29,19 @@ export function Login () {
 
       <div className="login relative flex justify-center items-center h-screen min-h-[6-0rem] bg-blue-800">
         <div className="min-w-[40rem] w-[40vw] p-20 bg-gray-200 rounded-xl"> 
-          <Titulo 
+          <Title 
             classes="sr-only" 
             text="Página de Login"
           />
 
-          <Subtitulo 
+          <SubTitle 
             classes="text-center text-gray-800 pb-2"  
             text="Efetuar Login" 
           />
 
           { loginAccountType ?
             <div>
-              <Texto 
+              <Text 
                 type="paragraph"
                 classes="text-center pb-5 max-w-xs m-auto text-gray-800" 
 
@@ -108,7 +108,7 @@ export function Login () {
           }
           
           <NavLink to="/criar-conta" title="Criar conta">
-            <Texto 
+            <Text 
               type="detail"
               text="Não possui conta? Criar conta."
               classes={`pt-4 font-medium text-gray-500 underline text-center ${loginAccountType === '' ? 'text-center' : ''}`} 

@@ -2,8 +2,8 @@ import image1 from  '../../../../assets/images/thumb-1.png'
 import image2 from  '../../../../assets/images/thumb-2.png'
 import image3 from  '../../../../assets/images/thumb-3.png'
 
-import { Titulo } from '../../../../components/Layout/Texto/Titulo'
-import { Texto } from '../../../../components/Layout/Texto/Texto'
+import { Title } from '../../../../components/Layout/Text/Title'
+import { Text } from '../../../../components/Layout/Text/Text'
 import { ArrowDown } from 'phosphor-react'
 
 
@@ -14,12 +14,12 @@ export function Intro () {
       <section className="relative mt-12 linear-gradient-default overflow-hidden bg-blue-800" id="intro">
         <div className="container py-52">
           <div className="max-w-3xl">
-            <Titulo 
+            <Title 
               classes="pb-8" 
               text="Os melhores instrutores de LIBRAS em um só lugar."
             />
 
-            <Texto 
+            <Text 
               classes="pb-12"
               type="paragraph-max"
               text="Escolhemos a dedo e contamos com dezenas de 

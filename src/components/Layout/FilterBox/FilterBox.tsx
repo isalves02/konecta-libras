@@ -3,7 +3,7 @@ interface FilterBoxProps {
   classes?: string,
 }
 
-export function BoxFiltros({ name, classes }:FilterBoxProps) {
+export function FilterBox({ name, classes }:FilterBoxProps) {
   return (
     <>
     <div 

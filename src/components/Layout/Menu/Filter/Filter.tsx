@@ -1,11 +1,11 @@
 import { useContext } from 'react'
 import { X, CaretRight } from 'phosphor-react'
-import { FiltersData } from '../../../data/Filter'
-import { AccountTypeContext } from '../../../contexts/GeneralContextProvider'
-import { Texto } from '../Texto/Texto'
+import { FiltersData } from '../../../../data/Filter'
+import { AccountTypeContext } from '../../../../contexts/GeneralContextProvider'
+import { Text } from '../../Text/Text'
 
 
-export function MenuFiltro () {
+export function FilterMenu () {
   const filters = FiltersData.sort()
   const { isMenuActive, setMenuVisibility  } = useContext(AccountTypeContext)
 
@@ -21,7 +21,7 @@ export function MenuFiltro () {
           }>
           
           <nav className="fixed flex items-center top-0 inset-x-0 h-16 px-4 bg-blue-950 border-b-default">
-            <Texto 
+            <Text 
               text="Filtros"
               classes="text-lg uppercase tracking-wider font-medium" 
             />

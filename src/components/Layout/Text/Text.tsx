@@ -1,6 +1,6 @@
 import { TextProps } from "../../../interfaces/GeneralProps"
 
-export function Texto({ type, text, classes }:TextProps) {
+export function Text({ type, text, classes }:TextProps) {
   return(
     <> 
       { (!type ) && 

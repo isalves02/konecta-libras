@@ -4,7 +4,7 @@ import { SignOut, MagnifyingGlass } from 'phosphor-react'
 
 import filter from '../../../assets/icons/filter-menu.svg'
 import { AccountTypeContext } from '../../../contexts/GeneralContextProvider'
-import { Logomarca } from '../Logomarca/Logomarca'
+import { Logo } from '../Logo/Logo'
 
 
 export function HeaderPlataforma() {
@@ -33,7 +33,7 @@ export function HeaderPlataforma() {
           </li>
         </ul>
 
-        <Logomarca />
+        <Logo />
         
         <ul className="flex items-center gap-6">
           <li className="text-sm text-white font-light">Olá, Aline!</li>
