@@ -41,8 +41,9 @@ export interface InputProps {
   id: string,
   type: string,
   name: string,
-  value?: string,
   mask?: string,
+  accept?: string,
+  value?: string,
   classes?: string,
   placeholder?: string,
 
@@ -77,11 +78,12 @@ export interface TextareaProps {
 
 export interface CardProps {
   text: string;
+  classes?: string;
   hasHover?: boolean;
+  hasIcon?: boolean;
 }
 
 export interface TagProps {
   text: string;
   type: string;
-  // type: 'Pendente' | 'Publicado' | 'Não aprovado';
 }

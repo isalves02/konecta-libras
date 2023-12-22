@@ -10,15 +10,21 @@ export function AreaDoDocente () {
     <>
       <Header page="teacher" />
 
-      <section className="plataforma pt-28 bg-blue-900 min-h-screen">
+      <section className="plataforma pt-40 bg-blue-900 min-h-screen">
         <div className="container">
           <Subtitle text="Painel do docente" classes="mb-4" />
 
           <NavLink to="/area-do-docente/cadastro" title="Área para cadastrar conteúdo">
-            <Card text="Cadastrar novo conteúdo" hasHover={true} />
+            <Card text="Cadastrar novo conteúdo" hasHover={true} hasIcon={true} />
           </NavLink>
 
-          <div className="mt-8 py-10">
+          <div className="flex gap-2">
+            <Card text="Visualizações última semana: +24 mil" classes="mt-4 bg-blue-500/20" />
+            <Card text="Alcance mensal: +50 mil" classes="mt-4 bg-blue-500/20" />
+            <Card text="Novo acesso ao perfil: +2 mil" classes="mt-4 bg-blue-500/20 text-yellow-400" />
+          </div>
+
+          <div className="mt-4 py-10">
             <Text type="h4" text="Lista de conteúdos cadastrados" classes="uppercase tracking-wide" />
             <RegisteredContent />
           </div>

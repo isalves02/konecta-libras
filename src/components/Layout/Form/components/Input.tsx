@@ -7,6 +7,7 @@ export function Input ({
   id, 
   name, 
   type, 
+  accept,
   classes,
   required, 
   maxLength, 
@@ -28,6 +29,7 @@ export function Input ({
         value={value}
         required={required}
         checked={isChecked}
+        accept={`${accept}`}
         disabled={isDisabled}
         maxLength={maxLength}
         placeholder={placeholder}
