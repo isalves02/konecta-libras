@@ -39,6 +39,9 @@ Os três maiores focos foram: performance, código limpo e fácil manutenibilida
   - "typescript": "^5.2.2",
   - "vite": "^5.0.0"
 
+## Versão DEMO do MVP KonectaLIBRAS
+Disponível para navegabilidade em www.konectalibras.com.br
+
 ## Pré-requisitos
 
 Esse projeto não possui pré-requisitos. 
