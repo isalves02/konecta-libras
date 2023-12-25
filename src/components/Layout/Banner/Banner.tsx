@@ -1,3 +1,5 @@
+import { Subtitle } from "../Text/Subtitle";
+
 interface BannerProps {
   text: string,
   imageUrl: string,
@@ -9,18 +11,19 @@ export function Banner({text, imageUrl, classes}:BannerProps) {
     <>
       <section 
         className={`
-          banner w-full h-80 
+          pl-10 
+          w-full h-40
           rounded-md relative 
           overflow-hidden flex 
-          items-center pl-20
+          items-center lg:h-60 lg:pl-20
 
           after:content-[''] after:absolute 
           after:inset-y-0 after:right-0 
           after:w-3/5 after:bg-gradient-to-r 
           after:from-blue-800 after:from-20% after:to-transparent
           ${classes}`}>
-
-          <h3 className="text-4xl leading-normal font-medium max-w-md relative z-20">{text}</h3>
+          
+          <Subtitle text={text}/>
 
           <img 
             alt="" 

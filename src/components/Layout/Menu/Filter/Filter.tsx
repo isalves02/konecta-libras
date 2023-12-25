@@ -13,7 +13,7 @@ export function FilterMenu () {
     <>
       <div 
         className={`
-          fixed w-1/3 
+          fixed w-72
           inset-y-0 z-50 
           bg-blue-950 flex 
           items-center transition-transform 

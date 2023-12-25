@@ -5,7 +5,6 @@ export function Subtitle({ text, classes }:TextProps) {
     <>
       <h3 
         className={`
-          max-w-sm
           text-xl
           md:text-2xl
           xl:text-3xl

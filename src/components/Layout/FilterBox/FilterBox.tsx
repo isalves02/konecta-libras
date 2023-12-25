@@ -1,3 +1,5 @@
+import { Text } from "../Text/Text";
+
 interface FilterBoxProps {
   name: string,
   classes?: string,
@@ -7,12 +9,12 @@ export function FilterBox({ name, classes }:FilterBoxProps) {
   return (
     <>
     <div 
-      className={`filtro flex py-5 px-10 
-        items-center justify-center
-        rounded-md gap-2 border
+      className={`filtro flex  
+        items-center justify-center py-3 px-5
+        rounded-md gap-2 border sm:py-5 sm:px-10 
         border-solid border-gray-600 ${classes}`}>
-
-      <h3 className="text-base uppercase tracking-widest">{name}</h3>
+          
+        <Text type="detail" text={name} classes="uppercase tracking-widest" />
     </div>
     </>
   )

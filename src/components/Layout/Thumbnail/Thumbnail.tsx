@@ -8,7 +8,7 @@ export function Thumbnail({ imageUrl, classes, title, category }: ThumbnailProps
   return (
     <>
       <NavLink to='interna'>
-        <div className={`mb-2 relative overflow-hidden rounded-md ${classes}`}>
+        <div className={`w-96 mb-2 relative overflow-hidden rounded-md ${classes}`}>
           <img 
             alt={title}
             src={imageUrl} 

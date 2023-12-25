@@ -30,15 +30,15 @@ export function Plataforma() {
         </div>
 
         <div className="p-4">
-          <Text type="topic" text="Últimos filtros acessados" classes="mt-16" />
+          <Text type="topic" text="Últimos filtros acessados" classes="mt-4 sm:mt-8 lg:mt-16" />
   
-          <div className="flex gap-8">
+          <div className="flex flex-wrap gap-4 lg:gap-8 overflow-x-auto">
             {LatestFilters.map(filter => {
               return (
                 <FilterBox 
                   name={filter} 
                   key={filter+uuid()}
-                  classes="bg-blue-900 w-3/12" 
+                  classes="bg-blue-900 w-3/12 flex-1" 
                 />
               )
             })}
