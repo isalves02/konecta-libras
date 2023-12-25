@@ -21,7 +21,7 @@ export function HeaderArea() {
         <Logo />
         
         <ul className="flex items-center gap-6">
-          <li className="text-sm text-white font-light">Olá, Jéssica!</li>
+          <li className="text-sm text-white font-light  hidden sm:block">Olá, Jéssica!</li>
           <li>
             <NavLink to="/" title="Página Inicial">
               <SignOut 

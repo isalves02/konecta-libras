@@ -10,7 +10,7 @@ export function AreaDoDocente () {
     <>
       <Header page="teacher" />
 
-      <section className="plataforma pt-40 bg-blue-900 min-h-screen">
+      <section className="pt-28 sm:pt-40 bg-blue-900 min-h-screen">
         <div className="container">
           <Subtitle text="Painel do docente" classes="mb-4" />
 
@@ -18,10 +18,10 @@ export function AreaDoDocente () {
             <Card text="Cadastrar novo conteúdo" hasHover={true} hasIcon={true} />
           </NavLink>
 
-          <div className="flex gap-2">
-            <Card text="Visualizações última semana: +24 mil" classes="mt-4 bg-gray-500/50" />
-            <Card text="Alcance mensal: +50 mil" classes="mt-4 bg-gray-500/50" />
-            <Card text="Novo acesso ao perfil: +2 mil" classes="mt-4 bg-gray-500/50 text-yellow-400" />
+          <div className="flex flex-wrap gap-2 md:flex-nowrap mt-4">
+            <Card text="Visualizações última semana: +24 mil" classes="bg-gray-500/50" />
+            <Card text="Alcance mensal: +50 mil" classes="bg-gray-500/50" />
+            <Card text="Novo acesso ao perfil: +2 mil" classes="bg-gray-500/50 text-yellow-400" />
           </div>
 
           <div className="mt-4 py-10">

@@ -6,7 +6,7 @@ export function FormCadastroConteudo() {
   return (
     <>
       <form>
-        <div className="flex gap-8">
+        <div className="flex gap-8 flex-col md:flex-row">
           <div className="flex flex-col w-full">
             <Label name="videoTitle" text="Título:" classes="text-white/80 mb-2" />
             <Input id="videoTitle" name="videoTitle" type="text" placeholder="Adicione o título do seu vídeo" classes="mb-4" required={true} />

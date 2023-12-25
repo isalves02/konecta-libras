@@ -11,13 +11,13 @@ export function Cadastro() {
     <>
       <Header page="teacher" />
 
-      <section className="plataforma pt-28 bg-blue-900 min-h-screen">
+      <section className="plataforma pt-28 bg-blue-900 min-h-screen relative overflow-x-hidden">
         <div className="container">
           <NavLink to="/area-do-docente" title="Retornar ao painel">
             <PageBack />
           </NavLink>
          
-          <div className="max-w-3xl mb-16">
+          <div className="max-w-3xl mb-16 relative z-10">
             <Subtitle text="Cadastrar novo conteudo" classes="mb-2 text-gray-300" />
             <Text 
               type="paragraph" 
@@ -34,7 +34,7 @@ export function Cadastro() {
           </div>
         </div>
         
-        <div className="detail-radial-gradient w-4/5 h-3/5 absolute top-1/2 -right-1/4 z-0 -translate-y-1/2" />
+        <div className="detail-radial-gradient hidden w-4/5 h-3/5 absolute top-1/2 -right-1/4 z-0 -translate-y-1/2 md:block" />
 
 
         <div className="bg-blue-800 py-16">
