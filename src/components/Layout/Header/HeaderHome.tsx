@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { NavLink } from "react-router-dom";
-import { User, List } from 'phosphor-react'
+import { User } from 'phosphor-react'
 import konectaLibras from '../../../assets/icons/konecta-libras.svg'
 import { AccountTypeContext } from '../../../contexts/GeneralContextProvider'
 
@@ -11,13 +11,13 @@ export function HeaderHome() {
   return (
     <>
       <div className="container flex items-center justify-between">
-        <img src={konectaLibras} alt="Konecta LIBRAS" width="204" height="21" />
+        <img src={konectaLibras} alt="Konecta LIBRAS" width="204" height="21" className="w-36 sm:w-44 lg:w-auto" />
           
-        <ul className="flex items-center uppercase text-sm gap-8 tracking-wider max-lg:hidden">
-          <li><a>A plataforma</a></li>
-          <li><a>Quero ensinar!</a></li>
+        <ul className="flex items-center uppercase text-sm gap-8 tracking-wider">
+          <li className="max-lg:hidden"><a>A plataforma</a></li>
+          <li className="max-lg:hidden"><a>Quero ensinar!</a></li>
 
-          <li>
+          <li className="max-lg:hidden">
             <NavLink to="/criar-conta" title="Criar conta">
               <button 
                 type="button" 
@@ -38,13 +38,6 @@ export function HeaderHome() {
             </NavLink>
           </li>
         </ul>
-
-        <button type="button" className="menuMobile ml-3 lg:hidden" aria-label="Abrir menu">
-          <List 
-            color="white"
-            size={30}
-          />
-        </button>
       </div>
     </>
   )

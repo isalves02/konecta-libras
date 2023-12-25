@@ -5,10 +5,14 @@ export function Subtitle({ text, classes }:TextProps) {
     <>
       <h3 
         className={`
-          text-3xl
+          max-w-sm
+          text-xl
+          md:text-2xl
+          xl:text-3xl
           font-medium
-          leading-tight 
-          relative z-20 ${classes}`}>
+          md:max-w-none
+          leading-normal 
+          relative z-20 ${classes ? classes : ''}`}>
             {text}
       </h3>
     </>

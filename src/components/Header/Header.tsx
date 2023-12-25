@@ -6,7 +6,6 @@ import { HeaderPlataforma } from '../Layout/Header/HeaderPlataforma'
 import { FilterMenu } from '../Layout/Menu/Filter/Filter'
 
 
-
 export function Header ({ page }:HeaderProps) {
   return (
     <>

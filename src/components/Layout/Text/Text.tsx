@@ -5,7 +5,7 @@ export function Text({ type, text, classes }:TextProps) {
     <> 
       { (!type ) && 
         <p className={`z-20 font-light 
-          leading-normal relative ${classes}`}>
+          leading-normal relative ${classes ? classes : ''}`}>
           {text}
         </p>
       }
@@ -13,32 +13,41 @@ export function Text({ type, text, classes }:TextProps) {
       { type === 'detail' && 
        <p className={`z-20 text-xs
           font-medium leading-normal
-          relative ${classes}`}>
+          relative ${classes ? classes : ''}`}>
             {text}
         </p>
       }
  
       { type === 'paragraph' && 
-       <p className={`z-20 text-base
+       <p className={`
+          z-20 
+          text-sm
+          md:text-base
           font-normal leading-normal
-          relative ${classes}`}>
+          relative ${classes ? classes : ''}`}>
             {text}
         </p>
       }
  
       { type === 'paragraph-max' && 
-       <p className={`z-20 text-3xl
+       <p className={`
+          z-20 
+          text-lg
+          md:text-2xl
+          lg:text-3xl
           font-normal leading-normal
-          relative ${classes}`}>
+          relative ${classes ? classes : ''}`}>
             {text}
         </p>
       }
 
 
       { type === "topic" &&
-        <p className={`text-base uppercase 
+        <p className={`uppercase 
+          text-sm
+          md:text-base
           font-medium tracking-wider pb-3
-          ${classes}
+          ${classes ? classes : ''}
           `}>
               
           {text}
@@ -47,7 +56,12 @@ export function Text({ type, text, classes }:TextProps) {
 
       
       { type === "h4" && 
-        <h4 className={`text-lg ${classes}`}>
+        <h4 className={`
+          text-base 
+          md:text-lg 
+          ${classes ? classes : ''}
+          `}>
+          
           {text}
         </h4>
       }

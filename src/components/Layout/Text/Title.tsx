@@ -5,10 +5,14 @@ export function Title ({ text, classes }:TextProps) {
     <>
       <h3 
         className={`
-          text-5xl
+          max-w-md
+          text-2xl
+          md:text-4xl
+          xl:text-5xl
           font-medium
-          leading-tight 
-          relative z-20 ${classes}
+          md:max-w-none
+          leading-normal
+          relative z-20 ${classes ? classes : ''}
         `}>
           {text}
       </h3>

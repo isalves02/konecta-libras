@@ -12,7 +12,7 @@ export function Intro () {
     <> 
       <h2 className="sr-only">Página Inicial</h2>
       <section className="relative mt-12 linear-gradient-default overflow-hidden bg-blue-800" id="intro">
-        <div className="container py-52">
+        <div className="container py-28 sm:py-40 md:py-52">
           <div className="max-w-3xl">
             <Title 
               classes="pb-8" 
@@ -35,7 +35,7 @@ export function Intro () {
           />
         </div>
 
-        <div className="thumbnail opacity-50 absolute right-16 top-1/2 -translate-y-1/2 z-10 xl:opacity-100">
+        <div className="thumbnail opacity-0 absolute right-16 top-1/2 -translate-y-1/2 z-10 md:opacity-50 xl:opacity-100">
           <img src={image2} alt="" className="mb-2" width="487" height="303" />
           <img src={image1} alt="" className="absolute top-1/4 right-1/2" width="487" height="303" />
           <img src={image3} alt="" width="487" height="303" />

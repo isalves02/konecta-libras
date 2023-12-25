@@ -7,8 +7,9 @@ export function TrabalheConosco () {
 	return (
 		<>
 			<section className="trabalhe-conosco relative bg-blue-850" id="trabalhe-conosco">
-				<div className="container py-52 relative flex items-center justify-between z-10">
-					<div className="max-w-3xl">
+				<div className="container flex flex-col py-28 sm:py-40 md:py-52 relative justify-between z-10 lg:flex-row lg:items-center">
+					
+					<div className="mb-12 max-w-3xl lg:mb-0">
 						<Text
 							type="topic"
               classes="pb-2" 

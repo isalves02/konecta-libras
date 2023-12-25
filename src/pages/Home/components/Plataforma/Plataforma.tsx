@@ -5,7 +5,7 @@ export function Plataforma () {
   return (
     <>
       <section className="plataforma relative bg-blue-800" id="plataforma">
-        <div className="container py-52 relative z-10">
+        <div className="container py-28 sm:py-40 md:py-52 relative z-10">
           <div className="max-w-2xl lg:max-w-3xl">
             <Text
               type="topic" 
