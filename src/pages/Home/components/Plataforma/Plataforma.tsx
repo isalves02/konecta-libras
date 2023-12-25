@@ -17,7 +17,6 @@ export function Plataforma () {
               classes="pb-8" 
               text="O seu streaming de aprendizado de LIBRAS"
             />
-
           
             <Text  
               classes="pb-12"

@@ -18,7 +18,7 @@ export function FormPagamento() {
 
   return (
     <>
-      <div className="payment mt-4 bg-gray-100 rounded-md pt-2 pb-8 px-8 shadow mb-2">
+      <div className="payment mt-4 bg-gray-100 rounded-md pt-2 pb-8 px-4 shadow mb-2 sm:px-8">
         <Text
           type="topic" 
           text="Resumo" 
@@ -49,7 +49,7 @@ export function FormPagamento() {
           classes="pt-1 text-gray-700" 
         />
         
-        <div className="flex gap-2 justify-between mt-4 pb-4">
+        <div className="flex flex-col gap-2 justify-between mt-4 pb-4 sm:flex-row">
           <div className="flex items-center gap-1 w-full bg-gray-100 shadow rounded-md p-3">
             <Input 
               id="cartao" 

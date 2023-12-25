@@ -18,10 +18,10 @@ export function CriarConta () {
     <>
       <Header page="account" />
 
-      <div className="criar-conta relative flex justify-center items-center h-screen min-h-[5rem] overflow-hidden bg-blue-800">
+      <div className="relative flex justify-center items-center h-screen min-h-[5rem] overflow-hidden bg-blue-800 px-4 md:px-0 ">
         <div 
-          className="w-2/4 px-12 py-20 
-            min-w-[40rem] max-h-[80vh]  
+          className="py-20 w-full max-h-[80vh] px-6
+            md:min-w-[40rem] md:w-2/4 sm:px-12     
             bg-gray-200 rounded-xl 
             overflow-y-scroll
           ">

@@ -34,17 +34,10 @@ export function Interna () {
           />
 
           <div className="info">
-            <div className="flex justify-between items-center">
-              <Subtitle 
-                text="Como perguntar o nome?"
-                classes="mt-16 pb-8"
-              />
-
-              <span className="text-gray-300 text-sm flex gap-2">
-                O video está todo em LIBRAS? 
-                <u className="uppercase font-bold tracking-wider">Ativar legendas</u>
-              </span>
-            </div>
+            <Subtitle 
+              text="Como perguntar o nome?"
+              classes="mt-8 pb-4 sm:mt-16 sm:pb-8"
+            />
 
             <Text 
               type="h4" 

@@ -25,7 +25,7 @@ export function Login () {
   
   return (
     <>
-      <Header page='account' />
+      <Header page="account" />
 
       <div className="px-4 md:px-0 relative flex justify-center items-center h-screen min-h-[6-0rem] bg-blue-800">
         <div className="w-full p-10 md:min-w-[40rem] md:w-[40vw] md:p-20 bg-gray-200 rounded-xl"> 

@@ -23,7 +23,7 @@ export function HeaderPlataforma() {
             </button>
           </li>
 
-          <li>
+          <li className="hidden sm:block">
             <button type="button" aria-label="Clique para pesquisar">
               <MagnifyingGlass 
                 color="white"
@@ -36,7 +36,7 @@ export function HeaderPlataforma() {
         <Logo />
         
         <ul className="flex items-center gap-6">
-          <li className="text-sm text-white font-light">Olá, Aline!</li>
+          <li className="text-sm text-white font-light hidden sm:block">Olá, Aline!</li>
           <li>
             <NavLink to="/" title="Página Inicial">
               <SignOut 
