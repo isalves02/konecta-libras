@@ -30,11 +30,6 @@ export default {
         center: true,
         padding: '1rem'
       },
-
-      backgroundImage: {
-        'banner-carrossel': 'url("src/assets/images/banner-carrossel.png")',
-      },
-
     },
   },
   plugins: [],

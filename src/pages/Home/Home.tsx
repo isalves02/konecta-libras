@@ -2,7 +2,6 @@ import { Header } from "../../components/Header/Header"
 import { Intro } from "./components/Intro/Intro"
 import { Plataforma } from "./components/Plataforma/Plataforma"
 import { Filtros } from "./components/Filtros/Filtros"
-import { Vantagens } from "./components/Vantagens/Vantagens"
 import { Planos } from "./components/Planos/Planos"
 import { TrabalheConosco } from "./components/TrabalheConosco/TrabalheConosco"
 import { Footer } from "../../components/Footer/Footer"
@@ -17,7 +16,6 @@ export function Home() {
       <Intro />
       <Plataforma />
       <Filtros />
-      <Vantagens />
       <Planos />
       <TrabalheConosco />
       <Footer />

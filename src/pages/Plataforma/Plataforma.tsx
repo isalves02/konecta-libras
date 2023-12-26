@@ -4,7 +4,7 @@ import { Text } from "../../components/Layout/Text/Text"
 import { Thumbnail } from "../../components/Layout/Thumbnail/Thumbnail"
 import { FilterBox } from "../../components/Layout/FilterBox/FilterBox"
 
-import bannerImage from '../../assets/images/banner-plataforma.jpg'
+import bannerImage from '/assets/images/banner-plataforma.jpg'
 import { Footer } from "../../components/Footer/Footer"
 import { latestFiltersUsed, VideoData } from "../../data/VideoData"
 
@@ -55,7 +55,7 @@ export function Plataforma() {
                   key={videos.id}
                   title={videos.title}
                   category={videos.category} 
-                  imageUrl={videos.thumbnail} classes=" w-[25vw] h-64" 
+                  imageUrl={videos.thumbnail} classes="h-64" 
                 />
               )
             })}
@@ -72,7 +72,7 @@ export function Plataforma() {
                   key={videos.id}
                   title={videos.title}
                   category={videos.category} 
-                  imageUrl={videos.thumbnail} classes=" w-[25vw] h-64" 
+                  imageUrl={videos.thumbnail} classes="h-64" 
                 />
               )
             })}
@@ -89,7 +89,7 @@ export function Plataforma() {
                   key={videos.id}
                   title={videos.title}
                   category={videos.category} 
-                  imageUrl={videos.thumbnail} classes=" w-[25vw] h-64" 
+                  imageUrl={videos.thumbnail} classes="h-64" 
                 />
               )
             })}

@@ -1,4 +1,4 @@
-import konectaLibras from '../../../assets/icons/konecta-libras.svg'
+import konectaLibras from '/assets/icons/konecta-libras.svg'
 
 export function Logo () {
   return (

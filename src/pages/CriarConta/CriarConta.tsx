@@ -18,7 +18,7 @@ export function CriarConta () {
     <>
       <Header page="account" />
 
-      <div className="relative flex justify-center items-center h-screen min-h-[5rem] overflow-hidden bg-blue-800 px-4 md:px-0 ">
+      <div className="relative flex justify-center items-center h-screen min-h-[40rem] overflow-hidden bg-blue-800 px-4 md:px-0 ">
         <div 
           className="py-20 w-full max-h-[80vh] px-6
             md:min-w-[40rem] md:w-2/4 sm:px-12     
@@ -153,7 +153,7 @@ export function CriarConta () {
             />
 
 
-            <div className="flex gap-2">
+            <div className="flex flex-col sm:gap-2 sm:flex-row">
               <Label 
                 name="password"
                 text="Digite a sua senha"
@@ -219,7 +219,7 @@ export function CriarConta () {
                 name="cep" 
                 type="text"
                 required={true}
-                classes="flex-1"
+                classes="w-full sm:flex-1"
                 placeholder="CEP"
 
                 inputHasMask={true}
@@ -236,7 +236,7 @@ export function CriarConta () {
                 name="cidade" 
                 type="text"
                 required={true}
-                classes="w-5/12"
+                classes="w-1/2 flex-1 sm:w-5/12"
                 placeholder="Cidade"
               />
               
@@ -251,7 +251,7 @@ export function CriarConta () {
                 type="text"
                 required={true}
                 maxLength={2}
-                classes="w-2/12"
+                classes="w-1/3 sm:w-2/12"
                 placeholder="UF"
               />
 
@@ -266,7 +266,7 @@ export function CriarConta () {
                 name="logradouro" 
                 type="text"
                 required={true}
-                classes="flex-1"
+                classes="sm:flex-1"
                 placeholder="Logradouro"
               />
 
@@ -280,7 +280,7 @@ export function CriarConta () {
                 name="bairro" 
                 type="text"
                 required={true}
-                classes="w-4/12"
+                classes="flex-1 w-3/12"
                 placeholder="Bairro"
               />
 

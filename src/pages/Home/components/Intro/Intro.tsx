@@ -1,6 +1,6 @@
-import image1 from  '../../../../assets/images/thumb-1.png'
-import image2 from  '../../../../assets/images/thumb-2.png'
-import image3 from  '../../../../assets/images/thumb-3.png'
+import image1 from  '/assets/images/thumb-1.png'
+import image2 from  '/assets/images/thumb-2.png'
+import image3 from  '/assets/images/thumb-3.png'
 
 import { Title } from '../../../../components/Layout/Text/Title'
 import { Text } from '../../../../components/Layout/Text/Text'

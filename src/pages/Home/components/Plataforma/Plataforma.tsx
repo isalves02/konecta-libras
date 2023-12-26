@@ -21,9 +21,9 @@ export function Plataforma () {
             <Text  
               classes="pb-12"
 							type="paragraph-max"
-              text="Você é fluente em Língua Brasileira de Sinais e 
-							gostaria de fazer parte da nossa plataforma? 
-							Preencha o formulário e entraremos em contato com você!"   
+              text="Nossa plataforma customiza a sua busca por conteúdos de LIBRAS. 
+                Nossos filtros são personalizados de acordo com suas necessidades de aprendizado.
+                Aqui você encontrará vídeos de até 1 minuto, desempenho do seu progresso e interação com os professores."   
             />
           </div>
 

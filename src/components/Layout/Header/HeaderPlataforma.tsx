@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { NavLink } from "react-router-dom"
 import { SignOut, MagnifyingGlass } from 'phosphor-react'
 
-import filter from '../../../assets/icons/filter-menu.svg'
+import filter from '/assets/icons/filter-menu.svg'
 import { AccountTypeContext } from '../../../contexts/GeneralContextProvider'
 import { Logo } from '../Logo/Logo'
 

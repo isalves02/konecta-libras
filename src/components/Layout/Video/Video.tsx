@@ -30,9 +30,11 @@ export function Video({ url, title }:VideoProps) {
     }
 
     handleResize()
+    window.addEventListener('scroll', handleResize)
     window.addEventListener('resize', handleResize)
 
     return () => {
+      window.removeEventListener('scroll', handleResize)
       window.removeEventListener('resize', handleResize)
     }
   }, [url])

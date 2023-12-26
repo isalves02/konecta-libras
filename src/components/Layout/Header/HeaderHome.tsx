@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { NavLink } from "react-router-dom";
 import { User } from 'phosphor-react'
-import konectaLibras from '../../../assets/icons/konecta-libras.svg'
+import konectaLibras from '/assets/icons/konecta-libras.svg'
 import { AccountTypeContext } from '../../../contexts/GeneralContextProvider'
 
 
