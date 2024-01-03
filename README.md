@@ -1,7 +1,7 @@
 # KonectaLIBRAS
 
 Somos um projeto de impacto social que tem o foco em democratizar e facilitar o ensino da Língua Brasileira de Sinais, conectando aluno aos professores e facilitando as buscas aos conteúdos de LIBRAS.
-Obs: está versão é apenas um MVP para apresentar na banca do TCC do curso de Desenvolvimento de Sistemas.
+Obs: a versão presente é apenas um MVP para apresentar na banca do TCC do curso de Desenvolvimento de Sistemas.
 
 ## Descrição
 Foi desenvolvido uma aplicação web nas linguagens em React + Vite + Tailwind, com foco em experiência do usuário, usabilidade e acessibilidade.
