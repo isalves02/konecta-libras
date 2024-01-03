@@ -53,7 +53,7 @@ Os três maiores focos foram: performance, código limpo e fácil manutenibilida
     - Área de cadastro do vídeo.
 
 ## Acesso a plataforma
-Para facilitar a navegabilidade na plataforma durante a apresentação do projeto, não faz-se necessário o uso de credenciais no ato do Login, os botões já o direcionará as páginas internas.
+Para facilitar a navegabilidade na plataforma durante a apresentação do projeto, não faz-se necessário o uso de credenciais no ato do login, os botões já o direcionará às páginas internas.
 
 ## Versão DEMO do MVP KonectaLIBRAS
 Disponível para navegabilidade em www.konectalibras.com.br
