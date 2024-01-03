@@ -46,7 +46,7 @@ Os três maiores focos foram: performance, código limpo e fácil manutenibilida
   - Criar conta (formulários diferentes para aluno e docente),
   - Ao entrar como aluno:
     - Área de vídeos,
-    - Página de vídeos, com comentários (ao clicar em algum vídeo),
+    - Página de vídeos, com comentários (ao clicar em X vídeo),
     - Menu de filtros.
   - Ao entrar como docente:
     - Área do docente (com informações principais como alcance, visualizações, vídeos cadastrados, etc.),
