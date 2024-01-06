@@ -3,7 +3,7 @@ import { VideoProps } from "../../../interfaces/GeneralProps";
 import uuid from "react-uuid";
 import YouTube, { YouTubeProps } from "react-youtube";
 
-export function Video({ url, title }:VideoProps) {
+export function Video({ url, title, type }:VideoProps) {
   const [videoID, setVideoID] = useState('')
 
   useEffect(() => {
@@ -53,7 +53,6 @@ export function Video({ url, title }:VideoProps) {
       controls: 0,
       modestbranding: 1,
       iv_load_policy: 3,
-      origin: 'http://localhost:5173/',
     }
   };
 
@@ -61,8 +60,9 @@ export function Video({ url, title }:VideoProps) {
   return (
     <> 
       <div className="container-iframe w-full">
-        <div className="placeholder w-full h-screen bg-blue-950 rounded-md" />
-
+        {type === "video" ? 
+          <video controls autoPlay={false}  src="/assets/videos/konectalibras.mp4" className="w-full cursor-pointer" />
+        :
         <YouTube 
           videoId={videoID}
           id={uuid()+title}
@@ -70,6 +70,9 @@ export function Video({ url, title }:VideoProps) {
           onReady={() => handleHidePlaceholder()}
           iframeClassName="w-full rounded-md"
         />
+        }
+
+        {type != "video" && <div className="placeholder w-full h-screen bg-blue-950 rounded-md" /> }
       </div>
     </>
   )

@@ -19,6 +19,7 @@ export interface ThumbnailProps {
 export interface VideoProps {
   url?: string,
   title?: string,
+  type?: string,
 }
 
 export interface ButtonProps {
