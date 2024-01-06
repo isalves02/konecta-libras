@@ -1,6 +1,7 @@
 # KonectaLIBRAS
 
 Somos um projeto de impacto social que tem o foco em democratizar e facilitar o ensino da Língua Brasileira de Sinais, conectando aluno aos professores e facilitando as buscas aos conteúdos de LIBRAS.
+Obs: a versão presente é apenas um MVP para apresentar na banca do TCC do curso de Desenvolvimento de Sistemas.
 
 ## Descrição
 Foi desenvolvido uma aplicação web nas linguagens em React + Vite + Tailwind, com foco em experiência do usuário, usabilidade e acessibilidade.
@@ -39,11 +40,25 @@ Os três maiores focos foram: performance, código limpo e fácil manutenibilida
   - "typescript": "^5.2.2",
   - "vite": "^5.0.0"
 
+## Páginas disponíveis para a navegação
+  - Página inicial,
+  - Login (aluno e docente),
+  - Criar conta (formulários diferentes para aluno e docente),
+  - Ao entrar como aluno:
+    - Área de vídeos,
+    - Página de vídeos, com comentários (ao clicar em X vídeo),
+    - Menu de filtros.
+  - Ao entrar como docente:
+    - Área do docente (com informações principais como alcance, visualizações, vídeos cadastrados, etc.),
+    - Área de cadastro do vídeo.
+
+## Acesso a plataforma
+Para facilitar a navegabilidade na plataforma durante a apresentação do projeto, não faz-se necessário o uso de credenciais no ato do login, os botões já o direcionará às páginas internas.
+
 ## Versão DEMO do MVP KonectaLIBRAS
 Disponível para navegabilidade em www.konectalibras.com.br
 
 ## Pré-requisitos
-
 Esse projeto não possui pré-requisitos. 
 Para executar, faz-se necessário clonar o projeto, acessar a pasta através do terminal e instalar o Node Package Manager:
 
