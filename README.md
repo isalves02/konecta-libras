@@ -1,5 +1,7 @@
 # KonectaLIBRAS
 
+Disponível em: https://konecta-libras.vercel.app/
+
 Somos um projeto de impacto social que tem o foco em democratizar e facilitar o ensino da Língua Brasileira de Sinais, conectando aluno aos professores e facilitando as buscas aos conteúdos de LIBRAS.
 Obs: a versão presente é apenas um MVP para apresentar na banca do TCC do curso de Desenvolvimento de Sistemas.
 
